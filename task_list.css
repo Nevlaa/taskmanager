@@ -1,0 +1,44 @@
+/*
+*******************************************
+Scott Horsburgh
+Task_Manager Application
+07/05/2019
+*******************************************
+*/
+h1 { 
+    font-size: 150%;
+    color: blue;
+    margin-bottom: .5em;
+}
+.container-fluid{
+    margin: 40px;
+    background-color: rgb(240, 237, 233, 0.3);
+}
+div label{
+    font-size: 140%;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+button{
+	margin-left: 25px;
+}
+#name{
+    font-size: 140%;
+    font-weight: bold;
+}
+#clear_task{
+    margin-right: 25px;
+}
+#add_task{
+	width: 34%;
+}
+textarea.form-control{
+	background: #343a40!important;
+	color:white!important;
+	font-size: 105%;
+}
+input.form-control{
+	background: #343a40!important;
+	color:white!important;
+	font-size: 105%;
+}

@@ -1,0 +1,42 @@
+<!--
+*******************************************
+Scott Horsburgh
+Task_Manager Application
+07/05/2019
+*******************************************
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Manager</title>
+    <link type="text/css" rel="stylesheet" href="task_list.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="task_list.js"></script>
+</head>
+<body>
+    <div class="container-fluid border border-secondary rounded">
+        <div> <br> </div>
+        <h1 class="text-light bg-dark rounded p-3 mb-4">Task Manager</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <label class="text-dark" for="task">Enter a task</label><br>
+                <input class="form-control mb-3" type="text" name="task" id="task">
+                <br>
+                <button type="button" class="btn btn-secondary" name="toggle_sort" id="toggle_sort">Toggle Sort</button>
+                <button type="button" class="btn btn-secondary" name="set_name" id="set_name">Set Name</button>
+                <button type="button" class="btn btn-secondary" name="filter_tasks" id="filter_tasks" value="Filter Tasks">Filter Tasks</button>
+                <div> <br> </div>
+                <button type="button" class="btn btn-success" name="add_task" id="add_task">Add Tasks</button>
+                <button type="button" class="btn btn-warning" name="clear_tasks" id="clear_tasks">Clear Tasks</button>
+                <button type="button" class="btn btn-danger" name="delete_task" id="delete_task">Delete Tasks</button>
+                <div> <br> </div>
+            </div> 
+            <div class="col-md-6" id="textfield">
+                <span class="text-dark p-1" id="name">Tasks</span><br>
+                <textarea class="form-control mt-3" id="task_list" rows="7"></textarea>
+            </div>
+        </div>
+        <div> <br> </div>
+    </div>
+</body>
+</html>
